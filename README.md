@@ -1,1 +1,0 @@
-# SimuladorInvestimento1
