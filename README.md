@@ -117,7 +117,7 @@ https://coinmarketcap.com/currencies/bitcoin/
 
 - Java 17
 - Swing (`JOptionPane`)
-- NetBeans / IntelliJ / Eclipse (IDE)
+- NetBeans / VSCode
 - Maven (opcional)
 
 ---
