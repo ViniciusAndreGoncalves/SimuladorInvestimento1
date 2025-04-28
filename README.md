@@ -76,7 +76,7 @@ src/com/calcinvest/calculadorainvestimentos/
 05 anos - 12/2019 | 12/2024
   Rentabilidade: 51.11%
   Rendimento nominal: R$ 1511.09
-  Inflação do período: 161.06%
+  Inflação do período: 61.06%
   Valor corrigido pela inflação: R$ 1610.58
   ► Rendimento real: R$ -99.49
 ```
