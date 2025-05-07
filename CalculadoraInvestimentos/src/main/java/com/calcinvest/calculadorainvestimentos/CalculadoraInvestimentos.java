@@ -10,36 +10,27 @@ public class CalculadoraInvestimentos {
         
         RendaFixa rfx = new RendaFixa();
 
-        String valorStrRFX = JOptionPane.showInputDialog("Insira o valor a ser investido","1000");
-        double valorRFX = Double.parseDouble(valorStrRFX);
-        rfx.setValorInvestido(valorRFX);
+        String valorStr = JOptionPane.showInputDialog("Insira o valor a ser investido","1000");
+        double valor = Double.parseDouble(valorStr);
+        rfx.setValorInvestido(valor);
 
         JOptionPane.showMessageDialog(null, rfx.mostrarInvestimento(), "INFORMAÇÕES DO INVESTIMENTO", JOptionPane.INFORMATION_MESSAGE);
 
 
         RendaVariavel rv = new RendaVariavel();
-        
-        String valorStrRV = JOptionPane.showInputDialog("Insira o valor a ser investido","1000");
-        double valorRV = Double.parseDouble(valorStrRV);
-        rv.setValorInvestido(valorRV);
+        rv.setValorInvestido(valor);
 
         JOptionPane.showMessageDialog(null, rv.mostrarInvestimento(), "INFORMAÇÕES DO INVESTIMENTO", JOptionPane.INFORMATION_MESSAGE);
 
 
         RendaVariavelUSA rvUSA = new RendaVariavelUSA();
-
-        String valorStrRVUSA = JOptionPane.showInputDialog("Insira o valor a ser investido","1000");
-        double valorRVUSA = Double.parseDouble(valorStrRVUSA);
-        rvUSA.setValorInvestido(valorRVUSA);
+        rvUSA.setValorInvestido(valor);
 
         JOptionPane.showMessageDialog(null, rvUSA.mostrarInvestimento(), "INFORMAÇÕES DO INVESTIMENTO", JOptionPane.INFORMATION_MESSAGE);
     
 
         Bitcoin btc = new Bitcoin();
-
-        String valorStrBTC = JOptionPane.showInputDialog("Insira o valor a ser investido","1000");
-        double valorBTC = Double.parseDouble(valorStrBTC);
-        btc.setValorInvestido(valorBTC);
+        btc.setValorInvestido(valor);
 
         JOptionPane.showMessageDialog(null, btc.mostrarInvestimento(), "INFORMAÇÕES DO INVESTIMENTO", JOptionPane.INFORMATION_MESSAGE);
 
